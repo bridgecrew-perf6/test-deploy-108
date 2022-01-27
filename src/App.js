@@ -12,7 +12,6 @@ function App() {
   };
   return (
     <div className="App">
-      HomePage
       <AddUser onAddUser={addUser}></AddUser>
       <UserList users = {users}></UserList>
     </div>
